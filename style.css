@@ -5,7 +5,6 @@ body {
 
 .container {
   overflow: hidden;
-  padding: 0 100px;
 }
 
 .header, .footer {
@@ -14,14 +13,16 @@ body {
   line-height: 50px;
 }
 
+.inner-main {
+  margin: 0 100px;
+}
+
 .left {
   background-color: #FF9966;
   height: 80px;
   width: 100px;
   float: left;
   margin-left: -100%;
-  position: relative;
-  left: -100px;
 }
 
 .main {
@@ -37,6 +38,4 @@ body {
   width: 100px;
   float: left;
   margin-left: -100px;
-  position: relative;
-  right: -100px;
 }
