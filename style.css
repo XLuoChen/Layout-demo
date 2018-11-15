@@ -1,0 +1,42 @@
+body {
+  text-align: center;
+  line-height: 5
+}
+
+.container {
+  overflow: hidden;
+  padding: 0 100px;
+}
+
+.header, .footer {
+  background-color: #99CCCC;
+  height: 50px;
+  line-height: 50px;
+}
+
+.left {
+  background-color: #FF9966;
+  height: 80px;
+  width: 100px;
+  float: left;
+  margin-left: -100%;
+  position: relative;
+  left: -100px;
+}
+
+.main {
+  background-color: #FF6666;
+  height: 80px;
+  width: 100%;
+  float: left;
+}
+
+.right {
+  background-color: #FFCCCC;
+  height: 80px;
+  width: 100px;
+  float: left;
+  margin-left: -100px;
+  position: relative;
+  right: -100px;
+}
